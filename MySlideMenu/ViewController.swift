@@ -10,8 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var menuButton = SlideMenuButton(superView: self, animation: .LeftToRight)
+        
+        self.navigationItem.leftBarButtonItem = menuButton
+        menuButton.image = UIImage(named: "menu")
+        
+        self.view.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view, typically from a nib.
     }
 
