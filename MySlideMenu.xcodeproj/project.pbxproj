@@ -14,6 +14,7 @@
 		BA01FC461EBEA7770082691E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA01FC441EBEA7770082691E /* LaunchScreen.storyboard */; };
 		BA01FC4E1EBEAB860082691E /* SlideMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FC4D1EBEAB860082691E /* SlideMenuButton.swift */; };
 		BA01FC501EBEB0320082691E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FC4F1EBEB0320082691E /* MenuViewController.swift */; };
+		BA01FC531EBFE9420082691E /* SimpleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01FC521EBFE9420082691E /* SimpleMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA01FC471EBEA7770082691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA01FC4D1EBEAB860082691E /* SlideMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuButton.swift; sourceTree = "<group>"; };
 		BA01FC4F1EBEB0320082691E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BA01FC521EBFE9420082691E /* SimpleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		BA01FC3A1EBEA7760082691E /* MySlideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				BA01FC511EBFE9110082691E /* SimpleMenu */,
 				BA01FC3B1EBEA7770082691E /* AppDelegate.swift */,
 				BA01FC3D1EBEA7770082691E /* ViewController.swift */,
 				BA01FC3F1EBEA7770082691E /* Main.storyboard */,
@@ -68,6 +71,14 @@
 				BA01FC4F1EBEB0320082691E /* MenuViewController.swift */,
 			);
 			path = MySlideMenu;
+			sourceTree = "<group>";
+		};
+		BA01FC511EBFE9110082691E /* SimpleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BA01FC521EBFE9420082691E /* SimpleMenuViewController.swift */,
+			);
+			name = SimpleMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				BA01FC3E1EBEA7770082691E /* ViewController.swift in Sources */,
 				BA01FC4E1EBEAB860082691E /* SlideMenuButton.swift in Sources */,
 				BA01FC3C1EBEA7770082691E /* AppDelegate.swift in Sources */,
+				BA01FC531EBFE9420082691E /* SimpleMenuViewController.swift in Sources */,
 				BA01FC501EBEB0320082691E /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

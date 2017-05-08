@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var menuButton = SlideMenuButton(superView: self, animation: .LeftToRight)
+        //var menuButton = SlideMenuButton(superView: self, animation: .LeftToRight)
+        var menuButton = SlideMenuButton(superView: self, animation: .LeftToRight, menuView: SimpleMenuViewController())
         
         self.navigationItem.leftBarButtonItem = menuButton
         menuButton.image = UIImage(named: "menu")
